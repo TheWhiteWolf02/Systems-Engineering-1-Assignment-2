@@ -44,11 +44,3 @@ scp -P 10022 ubuntu@127.0.0.1:~/graph*.pdf .
 evince graph*.pdf
 sudo docker-compose down
 ```
-
-### General Notes ###
-* Solutions must be turned in no later than Jan, 5th AoE - No late days or other excuses.
-* Commit & PUSH!!! to your repository often before the deadline. Don't forget the push.
-* No team work. We check for plagarism and will let you fail if there is an indication given.
-* Ask questions at [auditorium](https://auditorium.inf.tu-dresden.de) if there are any.
-
-Add ssh-public-key contained in this repository!
