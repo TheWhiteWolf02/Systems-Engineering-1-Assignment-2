@@ -1,0 +1,18 @@
+version: '3'
+services:
+  server:
+    build: ./Container1
+    networks:
+      - sshNetwork
+    ports:
+      - "20022:22"
+
+  client:
+    build: ./Container2
+    networks:
+      - sshNetwork
+    ports:
+      - "10022:22"
+
+networks:
+  sshNetwork:
